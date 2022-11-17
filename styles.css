@@ -18,10 +18,10 @@ body {
 }
 
 .btn {
-  background-color: rebeccapurple;
+  background-color: #1f1b29;
   border-radius: 5px;
-  border: none;
-  color: white;
+  border: 2px solid;
+  color: #ffa260;
   margin: 1rem;
   padding: 1.5rem 3rem;
   font-size: 1.2rem;
@@ -30,7 +30,11 @@ body {
 }
 
 .btn:hover {
-  opacity: 0.9;
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  transition: 250ms ease-in-out;
 }
 .btn:focus {
   outline: none;
